@@ -1,0 +1,141 @@
+body {
+    background: linear-gradient(27deg, rgba(142,0,218,1) 10%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 98%);
+    background-attachment: fixed;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-plan {
+    background-color: rgb(42, 40, 56);
+    width: 275px;
+    border-color: black;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+    border-bottom-left-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    box-shadow: 0px 0px 27px 5px rgba(0,0,0,0.1);
+    transition: all 2s ease;
+}
+
+.card-plan > .plan-title {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+    line-height: 3.5rem;
+    text-transform: uppercase;
+    font: 900;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30;
+    text-align: center;
+    color: white;
+    background-color: aquamarine;
+}
+
+.card-plan > .plan-price {
+    font-family: 'Roboto', sans-serif;
+    font: 100;
+    text-align: center;
+    color: white;
+    margin-bottom: 0%
+}
+
+.card-plan > .plan-features {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgb(126, 126, 126);
+    margin: 6%;
+}
+
+.card-plan > .plan-cartbutton button {
+    background: transparent;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: capitalize;
+    line-height: 4.5rem;
+    transition: all 0.2s ease;
+}
+
+.card-plan > .plan-cartbutton button:hover {
+    transform: scale(1.2);
+    color: lightblue;
+}
+
+.card-plan > hr.solid-title {
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-color: #bbb;
+    margin: 0%;
+}
+
+.card-plan > hr.solid {
+    border-top-width: 1.5px;
+    border-top-style: solid;
+    border-color: #bbb;
+    margin: 0%;
+}
+
+.gitlink {
+    margin: 0;
+    position: absolute;
+    top: 99%;
+    left: 1%;
+    transform: translate(-1%, -99%);
+}
+
+.gitlink button {
+    text-align: center;
+    background: rgb(42, 40, 56);
+    color: white;
+    border: rgb(42, 40, 56);
+    border-radius: 0.2rem;
+    margin: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 2.5rem;
+    transition: all 0.2s ease;
+}
+
+.gitlink button:hover {
+    transform: scale(1.2);
+    color: lightblue;
+}
+
+.title {
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+
+    font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
+    color: white;
+    font: 900;
+}
+
+.message {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 99%;
+    left: 98%;
+    transform: translate(-98%, -99%);
+
+    font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
+    color: white;
+    font: 900;
+}
